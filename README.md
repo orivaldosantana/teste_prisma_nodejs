@@ -1,6 +1,6 @@
 # Teste com Prisma NodeJS
 
-Teste inicial com prisma e nodejs para manipular um banco de dados relacional. O tutorial da documentação oficial do primas foi utilizado como base e pode ser encontrado aqui ![neste link](https://www.prisma.io/docs/getting-started/quickstart).
+Teste inicial com prisma e nodejs para manipular um banco de dados relacional. O tutorial da documentação oficial do primas foi utilizado como base e pode ser encontrado aqui [neste link](https://www.prisma.io/docs/getting-started/quickstart).
 
 ## Criando o projeto
 
