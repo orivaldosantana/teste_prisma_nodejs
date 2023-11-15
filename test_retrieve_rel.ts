@@ -3,19 +3,12 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 async function main() {
-  const sensor = await prisma.sensor.create({
-    data: {
-      location: 'casa',
-      code: 'LDR01',
-      name: 'Iluminação',
-      readings: {
-        create: {
-          value: 2300
-        }
-      }
+  const sensorsWithReadins = await prisma.sensor.findMany({
+    include: {
+      readings: true
     }
   })
-  console.log(sensor)
+  console.dir(sensorsWithReadins, { depth: null })
 }
 
 main()
