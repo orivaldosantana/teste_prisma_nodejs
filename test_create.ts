@@ -3,14 +3,14 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 async function main() {
-  const user = await prisma.sensor.create({
+  const sensor = await prisma.sensor.create({
     data: {
       location: 'casa',
-      name: 'Temperatura',
-      code: 'TEMP01'
+      name: 'Umidade do ar',
+      code: 'UMI01'
     }
   })
-  console.log(user)
+  console.log(sensor)
 }
 
 main()
