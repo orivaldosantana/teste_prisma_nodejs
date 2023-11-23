@@ -120,4 +120,5 @@ Fonte: [ChatGTP](https://chat.openai.com/).
 
 # Referência
 
+- [Vídeo sobre Prisma: ferramenta para facilitar o uso de banco de dados com JavaScript](https://youtu.be/bl2hDCdlhQ0)
 - [Get started: Quickstart](https://www.prisma.io/docs/getting-started/quickstart)
